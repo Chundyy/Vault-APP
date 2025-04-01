@@ -1,4 +1,4 @@
-### **Vault App - Cofre Digital de Credenciais**
+### 🛡️**Vault App - Cofre Digital de Credenciais**
 
 O Vault é uma aplicação segura para o armazenamento e gestão de dados confidenciais, como passwords, documentos, projectos e fotografia. O foco principal é a proteção, criptografia e confidencialidade das informações, garantindo que apenas os utilizadores autorizados possam aceder aos seu dados.
 
