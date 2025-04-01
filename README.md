@@ -27,3 +27,5 @@ O Vault é uma aplicação segura para o armazenamento e gestão de dados confid
  
 **Product Owner: Chundy**
 
+![VAULT](https://ibb.co/GvgwKBfB)
+
