@@ -23,7 +23,8 @@ O Vault é uma aplicação segura para o armazenamento e gestão de dados confid
 
 - UI/UX (Interface Grafica): JoaoMreis08 & DidasO
 - Base de Dados: Bill3501 & Nootzzzzz
-- Criptografia & Segurança: Chundy & andrecar099
+- Criptografia: Chundy & andrecar099
+- Segurança: Chundy & NunoR0drigues
  
 **Product Owner: Chundy**
 
