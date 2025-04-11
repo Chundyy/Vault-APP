@@ -156,6 +156,14 @@ def adicionar_item_vault():
                 VALUES (%s, %s, %s)
             """, (user[0], tipo, dado_encriptado))
             conn.commit()
+            cursor.execute("""
+                INSERT INTO vault_items (user_id, type, data_encrypted) 
+                VALUES (%s, %s, %s)
+            """, (user[0], tipo, dado_encriptado))
+            conn.commit()
+
+            # Novo: salvar no disco
+            guardar_localmente(user[0], tipo, dado_encriptado)
             print(f"✅ Item '{tipo}' adicionado com sucesso ao Vault!")
         except mysql.connector.Error as err:
             print(f"❌ Erro ao adicionar item: {err}")
@@ -210,6 +218,21 @@ def remover_item_vault():
 
     cursor.close()
     conn.close()
+
+
+# === Guardar ficheiros localmente ===
+
+def guardar_localmente(user_id, tipo, dados_encriptados):
+    pasta = "vault_storage"
+    os.makedirs(pasta, exist_ok=True)
+
+    filename = f"{pasta}/user_{user_id}_{tipo}_{os.urandom(4).hex()}.vault"
+    with open(filename, "w") as f:
+        f.write(dados_encriptados)
+
+    print(f"💾 Backup local guardado em: {filename}")
+
+
 
 # === Menu Principal ===
 
