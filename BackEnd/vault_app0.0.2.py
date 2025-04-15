@@ -46,6 +46,7 @@ def criar_utilizador():
     senha = input("Palavra-passe: ")
     email = input("E-mail: ")
 
+    username_hash = ph.hash(username)
     senha_hash = ph.hash(senha)
     email_hash = ph.hash(email)
 
@@ -55,7 +56,7 @@ def criar_utilizador():
     try:
         cursor.execute(
             "INSERT INTO users (username, password_hash, email) VALUES (%s, %s, %s)",
-            (username, senha_hash, email)
+            (username_hash, senha_hash, email_hash)
         )
         conn.commit()
         print(f"✅ Utilizador '{username}' criado com sucesso!")
