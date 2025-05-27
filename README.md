@@ -14,10 +14,10 @@ O Vault é uma aplicação segura para o armazenamento e gestão de dados confid
 
 ### **Tecnologias Utilizadas**
 
-- FrontEnd:
+- FrontEnd: Php
 - BackEnd: Python
 - Base de Dados: MYSQL
-- Criptografia: Argon2
+- Criptografia: Argon2, Base64, AESGCM
 
 ### **Estrutura da Equipa**
 
