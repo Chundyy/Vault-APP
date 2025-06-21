@@ -24,7 +24,7 @@ Validação de Inputs Rigorosa (prevenção contra SQL injection)
 
 Logs de Auditoria Detalhados (rastreabilidade completa)
 
-2. Arquitetura Moderna
+## 2. Arquitetura Moderna
 Separação MVC Claro (Models, Views, Controllers)
 
 Injeção de Dependências (melhor testabilidade)
@@ -33,7 +33,7 @@ Middlewares Especializados (tratamento centralizado)
 
 Design Orientado a Serviços (AuthService, CryptoService)
 
-3. Funcionalidades Avançadas
+## 3. Funcionalidades Avançadas
 Renovação Automática de Sessão
 
 Cleanup de Sessões Expiradas (cron job)
@@ -42,7 +42,7 @@ Proteção CSRF Integrada (via tokens)
 
 Autenticação em Duas Etapas Pronta (base para implementar 2FA)
 
-4. Tecnologias Adicionadas
+## 4. Tecnologias Adicionadas
 FastAPI (vs script linear)
 
 Jinja2 Templates (frontend organizado)
