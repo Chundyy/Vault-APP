@@ -18,9 +18,9 @@ O Vault é uma aplicação segura para o armazenamento e gestão de dados confid
 - BackEnd: Python + FastAPI (substituindo soluções mais antigas por maior performance e segurança)
 - Base de Dados: MySQL com encryption at-rest (proteção adicional para dados em repouso)
 - Criptografia:
-    Argon2id (para hashing de senhas)
-    AES-256-GCM (para dados sensíveis)
-    PBKDF2 (para derivação de chaves)
+    - Argon2id (para hashing de senhas)
+    - AES-256-GCM (para dados sensíveis)
+    - PBKDF2 (para derivação de chaves)
 
 ### **Estrutura da Equipa**
 
