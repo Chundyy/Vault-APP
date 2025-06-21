@@ -1,4 +1,4 @@
-### Vault 0.0.1
+# Vault 0.0.1
 - Pequeno Menu para testar as funcionalidades do codigo
 - Encriptação de palavras passes em Argon2
 - Encriptação de dados pessoais
@@ -7,14 +7,14 @@
 - Base de dados ligada a sistema web via xampp
 
 
-### Vaut 0.0.2
+# Vaut 0.0.2
 - Guarda ficheiro localmente (cria um documento encriptado em base64, exemplo: user_2_document_a5f228f7.vault)
 
 
-### Vault 0.1.0
+# Vault 0.1.0
 
-1. Segurança Aprimorada
-# Sessões na Base de Dados (vs armazenamento em memória)
+## 1. Segurança Aprimorada
+Sessões na Base de Dados (vs armazenamento em memória)
 
 Cookies HTTP-Only e Secure (proteção contra XSS)
 
