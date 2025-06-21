@@ -37,5 +37,4 @@
 - Jinja2 Templates (frontend organizado)
 - HTMX (interatividade sem JS complexo)
 - APScheduler (tarefas agendadas)
-
 - Pydantic (validação de dados)
