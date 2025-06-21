@@ -14,7 +14,7 @@
 ### Vault 0.1.0
 
 1. Segurança Aprimorada
-Sessões na Base de Dados (vs armazenamento em memória)
+# Sessões na Base de Dados (vs armazenamento em memória)
 
 Cookies HTTP-Only e Secure (proteção contra XSS)
 
