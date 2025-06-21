@@ -32,16 +32,7 @@ O Vault é uma aplicação segura para o armazenamento e gestão de dados confid
 **Product Owner: Chundy**
 
 ### **Diagrama de Arquitetura**
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend PHP  │ ←→ │  API FastAPI    │ ←→ │   MySQL com     │
-│   + HTMX        │    │  (Python)       │    │   Encryption    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                              ↑
-┌─────────────────┐          ↑           ┌─────────────────┐
-│ Serviço de      │ ←────────┘           │ Serviço de      │
-│ Autenticação    │                      │ Backup          │
-│ (Argon2 + 2FA)  │                      │ Criptografado   │
-└─────────────────┘                      └─────────────────┘
+![VAULT](https://github.com/Chundyy/Vault-APP/blob/main/Arquitetura.png?raw=true)
 
 ![VAULT](https://github.com/Chundyy/Vault-APP/blob/main/Vault.png?raw=true)
 
